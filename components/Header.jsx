@@ -1,4 +1,4 @@
-import pic from "../public/1.jpg";
+import pic from "./../public/1.jpg";
 import Avatar from "./Avatar";
 import { ViewGridIcon, MicrophoneIcon } from "@heroicons/react/solid";
 
