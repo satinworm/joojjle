@@ -3,9 +3,9 @@ import logo from "../public/logo.svg";
 import { useRouter } from "next/router";
 import { useRef } from "react";
 import { MicrophoneIcon, SearchIcon, XIcon } from "@heroicons/react/solid";
-import pic from "../public/1.jpg";
+
 import Avatar from "./Avatar";
-import HeaderOptions from './HeaderOptions';
+import HeaderOptions from "./HeaderOptions";
 
 function SearchHeader() {
    const router = useRouter();
@@ -48,7 +48,7 @@ function SearchHeader() {
                   Search
                </button>
             </form>
-            <Avatar className="ml-auto" url={pic} />
+            <Avatar className="ml-auto" />
          </div>
 
          <HeaderOptions />
